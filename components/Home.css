@@ -1,0 +1,25 @@
+.navbar{
+    background: linear-gradient(to bottom, #3b9dff, #ffffff);
+    text-align: left;
+}
+.titlehead{
+  padding-left: 10px;
+  color: #000000;
+}
+.bg{
+    background-image: url('../images/bg-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mnu{
+  background-color: #ffffff;
+}
+.feed{
+  background-image: url('../images/crop2-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  padding-top: 100px;
+}
+.fed{
+}

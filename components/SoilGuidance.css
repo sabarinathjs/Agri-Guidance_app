@@ -1,0 +1,126 @@
+.soil-guidance-heading {
+  color: #ffffff;
+  background-color: #020202;
+  text-align: center;
+  font-size: 45px;
+  
+ 
+}
+
+.soil-guidance-container {
+  padding: 20px;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url('../images/bg-soils.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 490px; 
+  padding-left: 550px;
+}
+
+.soil-grid {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  max-height: 800px;
+  margin: 0 auto;
+}
+
+.soil-link {
+  text-decoration: none;
+  color: inherit;
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.soil-card {
+  background-color: #1d1d1d;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width:5px ;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease, z-index 0s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.soil-card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.soil-icon {
+  font-size: 40px;
+
+ 
+}
+
+.soil-name {
+  font-size: 39px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 5px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.soil-description {
+  font-size: 14px;
+  color: #e59007;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Adjust positions of the circular items with increased gaps */
+.soil-link:nth-child(1) {
+  transform: rotate(0deg) translateY(-300px) rotate(0deg);
+}
+
+.soil-link:nth-child(2) {
+  transform: rotate(72deg) translateY(-300px) rotate(-72deg);
+}
+
+.soil-link:nth-child(3) {
+  transform: rotate(144deg) translateY(-300px) rotate(-144deg);
+}
+
+.soil-link:nth-child(4) {
+  transform: rotate(216deg) translateY(-300px) rotate(-216deg);
+}
+
+.soil-link:nth-child(5) {
+  transform: rotate(288deg) translateY(-300px) rotate(-288deg);
+}
+
+.soil-link:nth-child(6) {
+  transform: rotate(360deg) translateY(-300px) rotate(-360deg);
+}
+.soil-link:nth-child(7) {
+  transform: rotate(432deg) translateY(-300px) rotate(-432deg);
+}
